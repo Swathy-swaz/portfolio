@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+
+    <!-- header incl img , and nav bar alligned column vice -->
+<header>
+    <div class="user">
+        <!-- <img src="image/girldes.png"> -->
+        <h2><i class="fas fa-user"></i></h2>
+        <h3 class="name">Swathy..</h3>
+        <p class="post">Front End Devoloper</p>
+    </div>
+<br>
+    <nav class="navbar">
+        <ul>
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#education">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- menu button when screen reduced , fa ->font awsome -->
+<div id="menu" class="fas fa-bars">  </div>
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <h3>Hey There ! </h3>
+    <h1>I'm <span>Swathy Prasanna Kumar </span></h1>
+    <p>I'm a second year student at College Of Engineering Aranmula..I'm passionate to invest time in some creative stuffs and web designing , I love to be commited in projects and learn things like a newbie.. 
+         </p>
+    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>    
+
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h1 class="heading"><span>About </span>Me</h1>
+    <div class="row">
+
+        <div class="info">
+            <h3><span>Name : </span>Swathy Prasannakumar</h3>
+            <h3><span>Qualification : </span>Btech(ongoing)</h3>
+            <h3><span>Language Known : </span>English</h3>
+            <h3><span>Interest : </span>Designing</h3>
+            <a href="https://www.canva.com/design/DAEcgWg9oas/v_pfrK-xXLZxZRU7s4o1Iw/view?utm_content=DAEcgWg9oas&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+                <button class="btn">Download Resume <i class="fas fa-download"></i></button></a>
+        </div>
+
+        <div class="counter">
+           <div class="box">
+            <span>Beginner</span>
+            <h3> Python </h3>
+            <h3> JavaScript </h3>
+            <h3> Flutter </h3>
+           </div>
+
+           <div class="box">
+            <span>Inter</span>
+            <h3>HTML</h3>
+            <h3>CSS </h3>
+            <h3>C </h3>
+           </div>
+
+           <div class="box">
+            <span>Learning</span>
+            <h3>Flutter </h3>
+            <h3>Kotlin </h3>
+            <h3>backend</h3>
+            
+           </div>
+
+        </div>
+
+    </div>
+    <div class="bottom_aligner">
+        <div class="account">
+            <a href="https://github.com/Swathy-swaz"><h3><i class="fas fa-code-branch"></i> Github</h3></a> </div>
+        <div class="account">
+            <a href="https://www.linkedin.com/in/swathy-prasannakumar-358584222/"><h3><i class="fas fa-arrow-right"></i> Linkedin</h3></a></div>
+        <div class="account"><H3><i class="fas fa-envelope-open"></i> Mail</H3></a></div>
+    </div>
+
+
+</section>
+
+<!-- Education section -->
+
+<section class="education" id ="education">
+    <h1 class="heading">My <span>Projects</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+           <a href="https://github.com/Swathy-swaz/funzoim-furniture-app.git"> <span>Funzoim </span></a>
+            <h3>Furniture App</h3>
+            <p>A simple elegent looking home decor and furniture app using flutter</p>
+            <!-- <p>Status : Partially complete</p> -->
+        </div>
+
+        
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+           <a href="https://github.com/Swathy-swaz/Weather-API.git"> <span>Weather api</span></a>
+            <h3>Weather API</h3>
+            <p>Detecting the weather condition of any city with an api key, build using python</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <span>Website Bot</span>
+            <h3>Website Bot</h3>
+            <p>Its a simple website bot which will help you to look around and gives a brief idea about the website</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-code-branch"></i>
+            <span>Dream Project</span>
+            <h3>Next Leap</h3>
+            <p> Funzoim : A fully functional furniture app<br>  BookBevie : A book review app</p>
+           
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+   <h1 class="heading"><span>Contact</span></h1>
+   <div class="row">
+       <div class="content">
+           <h3 class="title">Contact info</h3>
+
+           <div class="info">
+               <h3><i class="fas fa-envelope"></i>swathyprasanakumar@gmail.com</h3>
+               <a href="https://github.com/Swathy-swaz"><h3><i class="fas fa-code"></i>Github</h3></a>
+               <h3><i class="fas fa-map-marker-alt"></i>Mavelikkara, Kerala</h3>
+            </div>
+
+       </div>
+   
+
+   <form action="">
+       <input type="text" placeholder="Name" class="box">
+       <input type="email" placeholder="Email" class="box">
+       <input type="text" placeholder="Project" class="box">
+       <input type="text" placeholder="Details" class="box">
+       <textarea name="" id="" cols="30" rows="10" class="boxmsg" placeholder="Message"></textarea>
+       <button type="submit">send <i class="fas fa-paper-plane"></i></button>
+   </form>
+
+</div>
+
+
+
+</section>
+
+
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="script.js"></script>
+
+</body>
+</html>
